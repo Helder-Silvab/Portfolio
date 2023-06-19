@@ -1,0 +1,77 @@
+.titleHelder {
+  font-size: 32px;
+  overflow: hidden;
+  position: relative;
+  color: #ff6600;
+}
+
+.titleHelder::after {
+  content: "envolvedor";
+  display: inline-block;
+  animation: animation 9.5s steps(100) infinite;
+  width: 0ch;
+  color: #ff6600;
+}
+
+.titleHelder::before {
+  display: inline-block;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #ff6600;
+  position: absolute;
+  right: 0;
+  animation: blinking 0.4s linear alternate infinite;
+}
+
+@keyframes animation {
+  25% {
+    content: "envolvedor";
+    width: 8ch;
+  }
+  50% {
+    width: 0ch;
+  }
+  75% {
+    content: "igner";
+    width: 4ch;
+  }
+  85% {
+    width: 0ch;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    background-color: #ff6600;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.hoverContacte:hover {
+  background-color: #ff6600;
+  opacity: 0.8;
+}
+
+.borderOrange1 {
+  border: 1px solid #ff6600;
+}
+
+.borderGray1 {
+  border: 1px solid #929292;
+}
+
+.eufoto {
+  background-size: 400px 400px;
+  min-width: 400px;
+  min-height: 400px;
+  background-repeat: no-repeat;
+}
+
+.lineOrange {
+  width: 400px;
+  height: 1px;
+  background-color: #ff6600;
+}

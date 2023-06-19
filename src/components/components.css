@@ -1,0 +1,8 @@
+.hoverText:hover {
+  color: #fff;
+}
+
+.lineOrange {
+  height: 1px;
+  background-color: #ff6600;
+}
