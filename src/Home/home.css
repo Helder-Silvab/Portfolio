@@ -75,3 +75,7 @@
   height: 1px;
   background-color: #ff6600;
 }
+
+.borderBottomGray {
+  border-bottom: 1px solid #929292;
+}

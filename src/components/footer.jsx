@@ -13,7 +13,7 @@ export function footer() {
               helderbarbedowork@gmail.com
             </div>
           </div>
-          <div className="grid-1-1 labelColorGray label-size-14      align-center">
+          <div className="grid-1-1 labelColorGray label-size-14 align-center">
             © Copyright 2023. Made by Hélder Barbedo
           </div>
         </div>

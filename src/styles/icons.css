@@ -3,17 +3,21 @@
 }
 
 .github {
-  background-image: url(../assets/Github.svg);
+  background-image: url(../assets/github.svg);
 }
 
 .wpp {
-  background-image: url(../assets/Whatsapp.svg);
+  background-image: url(../assets/whatsapp.svg);
 }
 
 .linkedin {
-  background-image: url(../assets/Linkedin.svg);
+  background-image: url(../assets/linkedin.svg);
 }
 
 .eu {
   background-image: url(../assets/eu.png);
+}
+
+.email {
+  background-image: url(../assets/Email.svg);
 }
