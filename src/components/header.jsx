@@ -1,9 +1,18 @@
 import React from "react";
 import "./components.css";
+import { motion } from "framer-motion";
 
 export function header() {
   return (
-    <div className="grid-1-1 grid-flex height70">
+    <motion.div
+      className="grid-1-1 grid-flex height70"
+      variants={{
+        hidden: { opacity: 0, y: 75 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      initial="hidden"
+      animate="visible"
+      transition={{ delay: 0.25, duration: 0.5 }}>
       <div className="logo icon-size-70 icon-align-center width70 height70"></div>
       <div className="labelColorWhite label-size-16 label-weight-semibold">
         Hélder Barbedo
@@ -35,6 +44,6 @@ export function header() {
           Contactos
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
