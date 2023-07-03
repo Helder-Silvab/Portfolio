@@ -46,7 +46,7 @@ function Home() {
             initial="hidden"
             animate="visible"
             transition={{ delay: 0.25, duration: 0.5 }}>
-            <div className="grid-1-2 margin-top-100">
+            <div className="grid-1-2 margin-top-100 zindex-999">
               <div className="grid-1-1 grid-flex">
                 <div className="label-size-32 labelColorWhite label-weight-semibold">
                   Hélder é um{" "}
@@ -156,7 +156,7 @@ function Home() {
                 animate="visible"
                 transition={{ delay: 0.2, duration: 0.5 }}>
                 <div className="grid-1-1 height150">
-                  <div class="logoDiana icon-size-100 icon-align-center grid-1-1 height150"></div>
+                  <div className="logoDiana icon-size-100 icon-align-center grid-1-1 height150"></div>
                 </div>
                 <div className="grid-1-1 grid-flex height30 borderGray1">
                   <div className="grid-1-3 labelColorGray label-size-12 margin-left-20">
