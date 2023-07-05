@@ -1,6 +1,6 @@
 export function footer() {
   return (
-    <div className="grid-1-1 lineOrange">
+    <div className="grid-1-1 lineOrange margin-top-50">
       <div className="grid">
         <div></div>
         <div className="grid-1-1 margin-top-10 margin-bottom-20">
