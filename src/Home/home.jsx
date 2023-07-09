@@ -4,6 +4,8 @@ import { header } from "../components/header.jsx";
 import { leftside } from "../components/leftside.jsx";
 import { footer } from "../components/footer.jsx";
 import { motion, useInView, useAnimation, useIsPresent } from "framer-motion";
+import Spline from "@splinetool/react-spline";
+
 function Home() {
   const ref = useRef(null);
   const SobreMimref = useRef(null);
@@ -343,7 +345,7 @@ function Home() {
                 </div>
               </div>
               <div className="width800">
-                <div className="logoWhitDots height400 icon-align-center"></div>
+                <Spline scene="https://prod.spline.design/h0QOIvM8C8cL28-6/scene.splinecode" />
               </div>
             </div>
           </motion.div>

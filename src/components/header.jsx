@@ -42,9 +42,11 @@ export function header() {
         </div>
       </div>
       <div className="display-flex width100 cursor-pointer">
-        <div className="label-size-16 labelColorOrange cursor-pointer">#</div>
+        <div className="label-size-16 labelColorOrange cursor-pointer">
+          <Link to="/Contactos">#</Link>
+        </div>
         <div className="label-size-16 labelColorGray cursor-pointer hoverText">
-          Contactos
+          <Link to="/Contactos">Contactos</Link>
         </div>
       </div>
     </motion.div>
