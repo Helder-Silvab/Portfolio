@@ -41,7 +41,7 @@ function contactos() {
                 No entanto, se você tiver outro pedido ou pergunta, <br />
                 não hesite em contactar-me
               </div>
-              <div className="grid-1-1">
+              <div className="grid-1-2">
                 <div className="width230 height120 height-reset borderGray1  border-radius-5 padding10">
                   <div className="grid-1-1 labelColorWhite label-size-16 label-weight-semibold">
                     Contacte me aqui!!!
