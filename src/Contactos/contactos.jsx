@@ -36,7 +36,7 @@ function contactos() {
               </div>
             </div>
             <div className="grid-1-1 margin-top-50">
-              <div className="label-size-32 labelColorWhite label-weight-semibold">
+              <div className="label-size-16 labelColorGray margin-top-15">
                 Estou interessado em oportunidades freelance. Se tiver algum
                 pedido ou questão, não hesite em contactar me
               </div>
