@@ -35,7 +35,7 @@ function contactos() {
                 Quem eu sou?
               </div>
             </div>
-            <div className="grid-1-1 margin-top-50">
+            <div className="grid-1-1 margin-top-20">
               <div className="label-size-16 labelColorGray margin-top-15">
                 Estou interessado em oportunidades freelance. Se tiver algum
                 pedido ou questão, não hesite em contactar me
