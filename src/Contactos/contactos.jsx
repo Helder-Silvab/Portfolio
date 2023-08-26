@@ -5,13 +5,6 @@ import { footer } from "../components/footer.jsx";
 import { motion, useInView, useAnimation, useIsPresent } from "framer-motion";
 
 function contactos() {
-  const Contactosref = useRef(null);
-  const isInViewContactos = useInView(Contactosref, { once: true });
-  useEffect(() => {
-    if (isInViewContactos) {
-      mainControlsContactos.start("visible");
-    }
-  }, [isInViewContactos]);
   return (
     <>
       <div className="grid">
@@ -49,7 +42,7 @@ function contactos() {
                 não hesite em contactar-me
               </div>
               <div className="grid-1-1">
-                <motion.div
+                <div
                   className="width230 height120 height-reset borderGray1  border-radius-5 padding10"
                   ref={Contactosref}
                   variants={{
@@ -80,7 +73,7 @@ function contactos() {
                       helderbarbedowork@gmail.com
                     </div>
                   </div>
-                </motion.div>
+                </div>
               </div>
             </div>
           </motion.div>
