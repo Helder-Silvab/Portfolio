@@ -344,9 +344,7 @@ function Home() {
                   </motion.div>
                 </div>
               </div>
-              <div className="width800">
-                <Spline scene="https://prod.spline.design/h0QOIvM8C8cL28-6/scene.splinecode" />
-              </div>
+              <div className="width800"></div>
             </div>
           </motion.div>
           {/* Skills */}
