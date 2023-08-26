@@ -71,7 +71,7 @@ function contactos() {
         </div>
         <div className="grid-1-1"></div>
       </div>
-      <div>{footer()}</div>
+      <div className="grid-1-1 margin-top-20">{footer()}</div>
     </>
   );
 }
