@@ -42,16 +42,7 @@ function contactos() {
                 não hesite em contactar-me
               </div>
               <div className="grid-1-1">
-                <div
-                  className="width230 height120 height-reset borderGray1  border-radius-5 padding10"
-                  ref={Contactosref}
-                  variants={{
-                    hidden: { opacity: 0, x: 75 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                  initial="hidden"
-                  animate={mainControlsContactos}
-                  transition={{ delay: 0.2, duration: 0.5 }}>
+                <div className="width230 height120 height-reset borderGray1  border-radius-5 padding10">
                   <div className="grid-1-1 labelColorWhite label-size-16 label-weight-semibold">
                     Contacte me aqui!!!
                   </div>
