@@ -5,6 +5,13 @@ import { footer } from "../components/footer.jsx";
 import { motion, useInView, useAnimation, useIsPresent } from "framer-motion";
 
 function contactos() {
+  const Contactosref = useRef(null);
+  const isInViewContactos = useInView(Contactosref, { once: true });
+  useEffect(() => {
+    if (isInViewContactos) {
+      mainControlsContactos.start("visible");
+    }
+  }, [isInViewContactos]);
   return (
     <>
       <div className="grid">
